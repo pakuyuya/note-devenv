@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<project name="antsample">
+  <!-- プロパティ定義 -->
+  <!-- プロパティファイルから build.dir、property.setを引き継ぐ -->
+  <property name="project.dir" value="." />
+  <proprety name="src.dir"    value="${project.dir}/src" />
+  <proprety name="webapp.dir" value="${project.dir}/WebContent" />
+  <proprety name="build.dir" value="build" />
+
+  
+
+  <target name="clean">
+  </target>
+  
+  <target name="clean-class">
+    
+  </target>
+  <target name="clean-war">
+  </target>
+
+  <target name="target2">
+  </target>
+
+</project>
